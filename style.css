@@ -1,0 +1,52 @@
+.hero.is-primary {
+    height: 400px;
+}
+
+.container {
+    text-align: center;
+}
+
+.field {
+    margin: auto;
+}
+
+.middle {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.searchbar-middle {
+    margin: 100px auto;
+}
+
+.field.has-addons {
+    justify-content: center;
+}
+
+.footer {
+    padding: 1rem 1rem 2rem;
+}
+
+.control .button {
+    height: 50px;
+}
+
+.control .input {
+    height: 50px;
+    width: 500px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    .control .button {
+        height: 50px;
+    }
+    
+    .control .input {
+        height: 50px;
+        width: 200px;
+    }
+}
